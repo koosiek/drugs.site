@@ -1,0 +1,130 @@
+/* podstawa strony */
+
+* {
+
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+body {
+
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://images.vice.com/vice/images/articles/meta/2015/02/13/whats-the-best-way-to-simulate-love-with-drugs-993-1423861000.jpg");
+    background-position: cover;
+    background-size: cover;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/* strona główna */
+
+nav {
+
+    color: rgb(20, 20, 20);
+    width: 100%; 
+    height: 100px;
+    display: flex; 
+    
+}
+
+.headingcss {
+
+    color: rgb(255, 255, 255); 
+    width: 100%; 
+    height: 900px; 
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 30px;
+
+}
+
+/* tabele i guziki */
+
+.buttoncss {
+
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    border: 3px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+  
+.buttonshadow {
+
+    box-shadow: rgba(216, 216, 216, 0.25) 0px 54px 55px, rgba(216, 216, 216, 0.25) 0px -12px 30px, rgba(216, 216, 216, 0.25) 0px 4px 6px, rgba(216, 216, 216, 0.25) 0px 12px 13px, rgba(216, 216, 216, 0.25) 0px -3px 5px;
+
+}
+
+/* tabela informacyjna */
+
+.footercss {
+
+    color: #000000;
+    background-color: #000000;
+    padding: 50px 20px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.footercss h1 {
+
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.0rem;
+
+}
+  
+.footercss .footerinform {
+
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.footercss h2 {
+
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/* pasek przewijania */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+  
+::-webkit-scrollbar-thumb {
+
+    background: #8b8b8b; 
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #9e9e9e; 
+
+}
